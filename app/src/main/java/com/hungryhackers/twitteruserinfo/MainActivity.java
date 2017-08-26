@@ -104,6 +104,7 @@ public class MainActivity extends AppCompatActivity {
         LISessionManager.getInstance(getApplicationContext())
                 .onActivityResult(this,
                         requestCode, resultCode, data);
+        linkededinApiHelper();
 
     }
 
